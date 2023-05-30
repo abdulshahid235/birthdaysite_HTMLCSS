@@ -1,0 +1,55 @@
+.pic {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 5px solid pink;
+}
+
+body {
+  background-color: aqua;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Pangolin", cursive;
+  background: linear-gradient(skyblue, pink);
+}
+
+.details {
+  border: 1px solid;
+  width: fit-content;
+  padding: 5px;
+  background-color: pink;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  color: black;
+}
+
+.present {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url("images/gift.png");
+  background-size: cover;
+}
+
+#present-happy:hover {
+  background-image: url("images/chandler.gif");
+}
+
+#present-excited:hover {
+  background-image: url("images/excited.gif");
+}
+
+footer {
+  text-align: center;
+  color: brown;
+  font-style: italic;
+  padding: 10px;
+}
